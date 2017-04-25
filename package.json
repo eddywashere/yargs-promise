@@ -1,0 +1,29 @@
+{
+  "name": "yargs-promise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Use the headless yargs parser with promises",
+  "author": "Eddy Hernandez <edward.d.hernandez@gmail.com> (http://eddywashere.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eddywashere/yargs-promise.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "yargs": "^7.1.0"
+  },
+  "keywords": [
+    "yargs",
+    "parser",
+    "yargs-parser",
+    "promise",
+    "promises"
+  ]
+}

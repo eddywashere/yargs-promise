@@ -22,7 +22,7 @@ Instead of using a callback with  [yargs.parse](http://yargs.js.org/docs/#method
 
 Examples:
 
-```
+```js
 const yargs = require('yargs');
 const YargsPromise = require('yargs-promise');
 
@@ -77,7 +77,7 @@ parser.parse('hello world')
 
 Customizing context example
 
-```
+```js
 const yargs = require('yargs');
 const YargsPromise = require('yargs-promise');
 

@@ -79,6 +79,8 @@ parser
   .help();
 ```
 
+Need access to yargs object? Work with the direct `yargs` object prior to passing it into the yargs-promise constructor. For convenience, it is also available at `parser.yargs`. 
+
 ### How it works
 
 This library does three things:

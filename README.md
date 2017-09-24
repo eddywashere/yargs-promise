@@ -24,10 +24,10 @@ Examples:
 
 ```js
 const yargs = require('yargs');
-const YargsPromise = require('yargs-promise');
+const yargsPromise = require('yargs-promise');
 
 // create the customized yargs parser
-const parser = new YargsPromise(yargs);
+const parser = yargsPromise(yargs);
 
 // setup command & command handler
 parser
@@ -59,9 +59,9 @@ Customizing context example
 
 ```js
 const yargs = require('yargs');
-const YargsPromise = require('yargs-promise');
+const yargsPromise = require('yargs-promise');
 
-const parser = new YargsPromise(
+const parser = yargsPromise(
   yargs,
   // customize context
   {

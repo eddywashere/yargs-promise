@@ -1,5 +1,5 @@
 const yargs = require('yargs');
-const YargsPromise = require('./index');
+const yargsPromise = require('./index');
 
 describe('YargsPromise', () => {
   let parser;
@@ -7,7 +7,7 @@ describe('YargsPromise', () => {
 
   beforeEach(() => {
     customContextMethod = jest.fn();
-    parser = new YargsPromise(yargs, {customContextMethod, foo: 'bar'});
+    parser = yargsPromise(yargs, {customContextMethod, foo: 'bar'});
   });
 
   afterEach(() => {
